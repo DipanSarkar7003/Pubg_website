@@ -285,12 +285,19 @@
 
 .container5 form {
     background-color: aqua;
+    height: 100%;
     width: 60%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
 
 }
 .container5MiddleBox{
     background-color: rgb(216, 39, 69);
         width: 60%;
+        height: 70%;
+        box-sizing: border-box;
+        border-radius: 30px;
+
 }
 
 
