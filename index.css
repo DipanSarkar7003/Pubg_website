@@ -1,6 +1,10 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@600&display=swap');
 
+  /* font-family: 'Bebas Neue', sans-serif;
+font-family: 'Poppins', sans-serif; */
   /* font-family: 'Bebas Neue', sans-serif; */
 *{
     margin: 0;
@@ -284,21 +288,126 @@
 
 
 .container5 form {
-    background-color: aqua;
-    height: 100%;
-    width: 60%;
+    background-color:transparent;
+   backdrop-filter: blur(30px);
+    height: 70%;
+    width: 80%;
+border: 4px solid #ffffff;
+border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2%;
+    position: relative;
+
+}
+.container5 form h2 {
+   color: #ffffff;
+   font-family: 'Poppins', sans-serif; 
+     font-size: 2vw; 
+}
+.container5 form input {
+width: 50%;
+border: none;
+background-color: transparent;
+border-bottom: 2px solid #ffffff;
+}
+.container5 form label {
+    font-family: 'Bebas Neue', sans-serif; 
+    color: #ffffff;
+}
+
+.sendmsg{
+    border: none;
+    border-radius: 30px;
+    max-width: 50%;
+    padding: 1% 3%;
+    transition: 0.5s ease;
+    font-family: 'Poppins', sans-serif; 
+    font-size: larger;
+    font-weight: 700;
+    color:#d7b018;
+
+}
+.sendmsg:hover{
+    background-color: #d7b018;
+    color: #ffffff;
+}
+/* FORM PART ENDS HERE  */
+/* CONTAINER 5 RIGHT BOX STYLING STARTS HERE  */
+.container5RightBox{
+    height: 80%;
+    border: none;
+    background-color: #d7b018;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
+    padding-left: 2%;
+    width: 30%;
+    position: absolute;
+    right: 0px;
+    box-sizing: border-box;
+}
+.container5RightBoxsection  button  {
 
 }
-.container5MiddleBox{
-    background-color: rgb(216, 39, 69);
-        width: 60%;
+.container5RightBoxsection  img{
+    max-width: 1vw;
+    background-color: transparent;
+    max-width: 5%;
+    /* height: 5%;
+    background-color: blue; */
+    padding: 5%;
+    border: 2px solid #ffffff;
+    border-radius: 100px;
+    margin: 2%;
+}
+.container5RightBoxsection  p {
+    color: #ffffff;
+    font-family: 'Bebas Neue', sans-serif; 
+    /* font-size: small; */
+    font-weight: 200;
+    
+}
+
+.container5RightBox h1 {
+    font-family: 'Poppins', sans-serif; 
+    font-size:1.5vw;
+    color: #ffffff;
+}
+
+/* .container5RightBoxsection{
+    display: flex;
+ border: 2px solid red ;
+
+} */
+.container5RightBoxsection{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.container5SocialMediaLogo {
+    width: 2vw;
+}
+
+.container5RightBoxsectionRigh{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container5RightBoxsectionLast{
+    display: flex;
+}
+/* 
+/* .container5MiddleBox{
+    /* background-color: rgb(216, 39, 69); */
+        /* width: 60%;
         height: 70%;
         box-sizing: border-box;
-        border-radius: 30px;
+        border-radius: 30px; */
 
-}
+/* }  */ 
 
 
 
