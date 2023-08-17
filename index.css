@@ -337,7 +337,7 @@ border-bottom: 2px solid #ffffff;
 /* FORM PART ENDS HERE  */
 /* CONTAINER 5 RIGHT BOX STYLING STARTS HERE  */
 .container5RightBox{
-    height: 80%;
+    height: 25vw;
     border: none;
     background-color: #d7b018;
     border-top-left-radius: 30px;
@@ -398,18 +398,23 @@ border-bottom: 2px solid #ffffff;
 }
 
 .container5RightBoxsectionLast{
-    /* display: flex; */
+    display: flex;
      background-color: aqua; 
-     height: 1vw;
-    /* gap: 7%; */
+     height: 3vw;
+     /* justify-content: center; */
+     align-items: center;
+    gap: 7%;
      /* margin-top: 5%;  */
      /* box-sizing: border-box; */
     /* align-items: center;  */
      /* justify-content: space-evenly;  */
 }
 .container5RightBoxsectionLast img{
-     /* width: 6%; */
-     height: 35%; 
+     width:1vw;
+     height: 1vw; 
+     padding: .5vw;
+     border-radius: 100px;
+     
      /* padding: 4%; */
     /* border-radius: 200px; */
     /* background-color: transparent; */
@@ -455,8 +460,8 @@ footer {
     justify-content: space-between;
     /* background-color: aquamarine; */
     width: 10vw;
-    margin-top: 3vh;
-    margin-bottom: 3vh;
+    margin-top: 2vw;
+    margin-bottom: 5vw;
     gap: 2vh;
     width: max-content;
 }
@@ -469,8 +474,8 @@ footer hr {
     border: 1px solid #ffffff;
 }
 .footerSocialMedia img {
-    width: 1vw;
-    height: 1vw;
+    width: 1.2vw;
+    height: 1.2vw;
     padding: 1vw;
     /* background-color: aqua; */
     border-radius: 100px;
@@ -491,6 +496,7 @@ footer hr {
 .footerLastLine p:hover{
     color: #d7b018;
     transition: ease 0.3s;
+    cursor: pointer;
 }
 
 
