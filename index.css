@@ -339,7 +339,7 @@ border-bottom: 2px solid #ffffff;
 .container5RightBox{
     display: flex;
     flex-direction: column;
-    gap:.6vh;
+    gap:.6git vh;
     height: 70%;
     border: none;
     background-color: #d7b018;
