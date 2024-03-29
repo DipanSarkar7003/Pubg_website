@@ -13,3 +13,13 @@ window.addEventListener("scroll" , function(){
     container2RightBox.
     console.log(container2RightBox)
 })
+
+
+
+const tl =gsap.timeline()
+
+tl.from(".nav_gsap_comp" ,{
+y:-10,
+opacity:0,
+stagger:0.1
+})
