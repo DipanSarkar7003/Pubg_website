@@ -132,6 +132,7 @@ background-color: #d7b018 ;
     font-size: 3vw;
     font-family: 'Bebas Neue', sans-serif;
     color: #d7b018;
+    
 }
 .container1 h1{
     font-family: 'Bebas Neue', sans-serif;
@@ -168,6 +169,7 @@ background-color: #d7b018 ;
     border: 2px solid #d7b018;
     margin-right: 1vw;
     border-radius: 10px;
+    margin-top: 3%;
 }
 .container1Button:hover{
     background-color: #d7b018;
@@ -186,12 +188,14 @@ background-color: #d7b018 ;
     box-sizing: border-box;
     background-size: 100% 100%;
     display: flex;
+    align-items: center;
     background-color: #0c0c0b;
     /* background-color: aqua; */
 }
 .contaiener2 img {
     /* padding: 0; */
     width: 60vw;
+    height: inherit;
 }
 
 .container2RightBox{
@@ -227,6 +231,8 @@ background-color: #d7b018 ;
     width: 100%;
     box-sizing: border-box;
     background-size: 100% 100%;
+    display: flex;
+    align-items: center;
     
 }
 .container3LeftPart{
@@ -525,7 +531,28 @@ footer hr {
 
 
 
+
+
+/* Extra large devices (large laptops and desktops, 1200px and be
+) */
+@media only screen and (max-width: 1200px) {
+html{
+    background-color: aqua;
+}
+.navbar {
+    background-color: aqua;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and be
+) */
+@media only screen and (max-width: 992px) {
+
+}
+
+
 @media only screen and (max-width: 820px) {
+    
     /* all container sixzing  */
     *{
        
@@ -649,3 +676,17 @@ width: 70vw;
 
 
 }
+
+/* Medium devices (landscape tablets, 768px and be
+) */
+@media only screen and (max-width: 768px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and be
+) */
+@media only screen and (max-width: 600px) {
+
+}
+
+
