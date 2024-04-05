@@ -1,18 +1,15 @@
 'use strict'
+// gsap.registerPlugin(Draggable, InertiaPlugin);
 console.log("hello world")
 let navItem = document.querySelectorAll(".listItem")
-// console.log(navItem)
+let device_width = window.innerWidth;
+console.log(device_width);
 
-// navItem.addEventListner("click", function(e){
-//     navItem.classList.add("yellowButton");
-// } )
-
-
-let container2RightBox = document.querySelector(".container2RightBox")
-window.addEventListener("scroll" , function(){
-    container2RightBox.
-    console.log(container2RightBox)
-})
+// let container2RightBox = document.querySelector(".container2RightBox")
+// window.addEventListener("scroll" , function(){
+//     container2RightBox.
+   
+// })
 
 
 
@@ -35,27 +32,91 @@ tl.from(".container1_gsap_comp" , {
 gsap.from(".container2_gsap_comp" , {
     opacity:0,
     x:20,
-    stagger :0.1,
-    delay:1,
+    stagger :0.2,
     scrollTrigger:{
-        target :"contaiener2",
+        trigger :".contaiener2",
         scroller:"body",
-        // markers:true,
+        start:"top 30%",
+       
      
        
     }
 })
 
-gsap,from(".section3_gsap_comp" , {
+gsap.from(".section3_gsap_comp" , {
     opacity:0,
     x:20,
     stagger :0.1,
-    delay:1,
     scrollTrigger:{
-        target :"contaiener3",
+        trigger :".container3",
         scroller:"body",
-        markers:true
-     
+        start:"top 30%",
+       
        
     }
 })
+
+
+if (device_width<=820){
+
+
+
+gsap.from(".container4Box:nth-child(odd)" , {
+    x:50 ,
+    opacity : 0 ,
+    duration : 1,
+    stagger :  0.2,
+    scrollTrigger : {
+        trigger :".container4",
+        scroller:"body" ,
+        start:"top 50%",
+        end : "bottom center",
+        markers : true,
+        scrub: 0.2 ,
+
+    }
+})
+
+
+gsap.from(".container4Box:nth-child(even)" , {
+    x:-50 ,
+    opacity : 0 ,
+    duration : 1,
+    stagger :  0.2,
+    scrollTrigger : {
+        trigger :".container4",
+        scroller:"body" ,
+        start:"top 50%",
+        end : "bottom center",
+        markers : true,
+        scrub: 0.2 ,
+
+    }
+})
+
+}
+
+else {
+    
+gsap.from(".container4Box" , {
+    y:150 ,
+    opacity : 0 ,
+    duration : 1,
+    stagger :  0.2,
+    scrollTrigger : {
+        trigger :".container4",
+        scroller:"body" ,
+        start:"top 50%",
+        end : "bottom 70%",
+        markers : true,
+        scrub: 0.2 ,
+
+    }
+})
+}
+
+// Draggable.create(".container4Box", {
+    
+//     inertia: true
+//   });
+  
