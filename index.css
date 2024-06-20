@@ -259,6 +259,7 @@ font-family: 'Poppins', sans-serif; */
 .container4 img {
   width: 20vw;
   margin-bottom: 5%;
+  backdrop-filter: blur(10px);
 }
 .container4 img:hover{
   cursor: pointer;
@@ -480,10 +481,10 @@ footer hr {
 ) */
 @media only screen and (max-width: 1200px) {
   html {
-    background-color: aqua;
+    /* background-color: aqua; */
   }
   .navbar {
-    background-color: aqua;
+    /* background-color: aqua; */
   }
 }
 
@@ -492,7 +493,7 @@ footer hr {
 @media only screen and (max-width: 900px) {
     
   .navbar {
-    background-color: #d7b018;
+    /* background-color: #d7b018; */
     justify-content: space-between;
     padding: 0 5%;
   }
