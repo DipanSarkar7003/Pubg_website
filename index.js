@@ -71,7 +71,6 @@ gsap.from(".container4Box:nth-child(odd)" , {
         scroller:"body" ,
         start:"top 50%",
         end : "bottom center",
-        markers : true,
         scrub: 0.2 ,
 
     }
@@ -88,7 +87,6 @@ gsap.from(".container4Box:nth-child(even)" , {
         scroller:"body" ,
         start:"top 50%",
         end : "bottom center",
-        markers : true,
         scrub: 0.2 ,
 
     }
@@ -108,15 +106,11 @@ gsap.from(".container4Box" , {
         scroller:"body" ,
         start:"top 50%",
         end : "bottom 70%",
-        markers : true,
         scrub: 0.2 ,
 
     }
 })
 }
 
-// Draggable.create(".container4Box", {
-    
-//     inertia: true
-//   });
+
   
